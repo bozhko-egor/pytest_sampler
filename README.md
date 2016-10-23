@@ -268,7 +268,7 @@ important role on how this work, so choose a unique, memorable one!
 ```python
 import pytest
 
-@pytext.fixture
+@pytest.fixture
 def i_set_things_up():
     projector = {'status': 'doing fine',
                  'flashing': "dicts can't flash!"}
